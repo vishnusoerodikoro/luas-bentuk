@@ -7,10 +7,17 @@ class luasbentuk {
     hitungluasbentuk() {
 return (this.alas * this.tinggi);
     }
+
+    hitung() {
+        console.log(`Luas Jajar Genjang` , this.hitungluasbentuk());
+    }
 }
     jajargenjang = new luasbentuk('10','5');
 
 
 //console.log(hitungluasbentuk)
 
-jajargenjang.hitungluasbentuk(5,5);
+jajargenjang.hitung();
+
+console.log(jajargenjang.hitungluasbentuk());
+
