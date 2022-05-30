@@ -1,9 +1,21 @@
-luasJajargenjang = () => {
-    return (alas * tinggi)
-}
-module.exports = luasJajargenjang
+class luasbentuk {
+    constructor(alas, tinggi, lebar, panjang) {
+      this.alas = alas;
+      this.tinggi = tinggi;
+      this.lebar = lebar;
+      this.panjang = panjang;
+    }
+   
+    rumusJajargenjang() {
+        return this.alas * this.tinggi
+    }
 
-luasSegitiga = (alas, tinggi) => {
-        return alas * tinggi / 2
+    rumusSegitiga() {
+        return this.alas * this.tinggi / 2
+    }
 }
-module.exports = luasSegitiga
+    jajargenjang = new luasbentuk(5, 20)
+    segitiga = new luasbentuk(2, 5)
+
+console.log(jajargenjang.rumusJajargenjang())
+console.log(segitiga.rumusSegitiga())
