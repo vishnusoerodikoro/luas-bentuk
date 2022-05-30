@@ -1,0 +1,20 @@
+{
+  "name": "luas-bentuk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "luas-bentuk.js",
+  "tyoe": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishnusoerodikoro/luas-bentuk.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vishnusoerodikoro/luas-bentuk/issues"
+  },
+  "homepage": "https://github.com/vishnusoerodikoro/luas-bentuk#readme"
+}
