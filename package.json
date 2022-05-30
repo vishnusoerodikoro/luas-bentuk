@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "luas-bentuk.js",
-  "type": "module",
   "scripts": {
+    "start": "node luas-bentuk.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
